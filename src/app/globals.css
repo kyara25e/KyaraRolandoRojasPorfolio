@@ -24,3 +24,175 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.fire {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(70px);
+  opacity: 0.75;
+}
+
+.fire-1 {
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, rgba(255, 120, 0, 0.95) 0%, rgba(255, 70, 0, 0.45) 35%, rgba(255, 0, 0, 0) 72%);
+  left: 52%;
+  top: 48%;
+  transform: translate(-50%, -50%);
+  animation: flameMove1 6s ease-in-out infinite;
+}
+
+.fire-2 {
+  width: 260px;
+  height: 260px;
+  background: radial-gradient(circle, rgba(255, 190, 0, 0.8) 0%, rgba(255, 110, 0, 0.35) 38%, rgba(255, 0, 0, 0) 74%);
+  left: 66%;
+  top: 42%;
+  transform: translate(-50%, -50%);
+  animation: flameMove2 5s ease-in-out infinite;
+}
+
+.fire-3 {
+  width: 280px;
+  height: 280px;
+  background: radial-gradient(circle, rgba(255, 0, 90, 0.65) 0%, rgba(255, 80, 0, 0.28) 42%, rgba(255, 0, 0, 0) 75%);
+  left: 40%;
+  top: 52%;
+  transform: translate(-50%, -50%);
+  animation: flameMove3 7s ease-in-out infinite;
+}
+
+.spark {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+  background: rgba(255, 190, 90, 0.95);
+  box-shadow: 0 0 18px rgba(255, 120, 0, 0.95);
+}
+
+.spark-1 {
+  left: 48%;
+  top: 66%;
+  animation: sparkFloat1 3.6s linear infinite;
+}
+
+.spark-2 {
+  left: 55%;
+  top: 68%;
+  animation: sparkFloat2 4.2s linear infinite;
+}
+
+.spark-3 {
+  left: 60%;
+  top: 63%;
+  animation: sparkFloat3 3.1s linear infinite;
+}
+
+.spark-4 {
+  left: 43%;
+  top: 69%;
+  animation: sparkFloat4 4.5s linear infinite;
+}
+
+@keyframes flameMove1 {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  25% {
+    transform: translate(-48%, -53%) scale(1.08);
+  }
+  50% {
+    transform: translate(-52%, -47%) scale(0.94);
+  }
+  75% {
+    transform: translate(-49%, -50%) scale(1.12);
+  }
+}
+
+@keyframes flameMove2 {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  30% {
+    transform: translate(-53%, -47%) scale(1.08);
+  }
+  60% {
+    transform: translate(-47%, -51%) scale(0.93);
+  }
+}
+
+@keyframes flameMove3 {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  20% {
+    transform: translate(-52%, -49%) scale(1.04);
+  }
+  50% {
+    transform: translate(-48%, -53%) scale(1.14);
+  }
+  80% {
+    transform: translate(-50%, -47%) scale(0.96);
+  }
+}
+
+@keyframes sparkFloat1 {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-140px) translateX(-18px) scale(0.35);
+    opacity: 0;
+  }
+}
+
+@keyframes sparkFloat2 {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 0;
+  }
+  18% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-165px) translateX(16px) scale(0.3);
+    opacity: 0;
+  }
+}
+
+@keyframes sparkFloat3 {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 0;
+  }
+  12% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-120px) translateX(10px) scale(0.4);
+    opacity: 0;
+  }
+}
+
+@keyframes sparkFloat4 {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-155px) translateX(-12px) scale(0.28);
+    opacity: 0;
+  }
+}
