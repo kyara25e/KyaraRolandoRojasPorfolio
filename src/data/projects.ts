@@ -14,7 +14,7 @@ export const projects: Project[] = [
     image: "https://res.cloudinary.com/dzslmv02r/image/upload/v1775556823/hylyzyu49vye7cxummwe.png",
     image2: "https://res.cloudinary.com/dzslmv02r/image/upload/v1775557439/cum6gpixtkaji8buencf.png",
     image3: "https://res.cloudinary.com/dzslmv02r/image/upload/v1775558196/hu0cxo7u6nulbg4tmzlf.png",
-    video: "",
+    video: "https://res.cloudinary.com/dzslmv02r/video/upload/v1775573887/gudwvj7zt24by9ct51vl.mp4",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const projects: Project[] = [
     image: "https://res.cloudinary.com/dzslmv02r/image/upload/v1775558043/ekjf30isqtpoj1ujgm5q.png",
     image2: "https://res.cloudinary.com/dzslmv02r/image/upload/v1775558071/n04jbolczymhur4ty3hx.png",
     image3: "https://res.cloudinary.com/dzslmv02r/image/upload/v1775558168/neu3ccjdjca2upbmcbdk.png",
-    video: "",
+    video: "https://res.cloudinary.com/dzslmv02r/video/upload/v1775574474/aoxdzj89cl0axcsygk9g.mp4",
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ export const projects: Project[] = [
     tech: ["Next.js", "Tailwind CSS", "Figma"],
     demo: "#",
     github: "https://github.com/kyara25e/YourCinemaMP02",
-    image: "",
+    image: "https://res.cloudinary.com/dzslmv02r/image/upload/v1775574649/ajpvoxit2ixhoflztlie.jpg",
     image2: "",
     image3: "",
     video: "",
