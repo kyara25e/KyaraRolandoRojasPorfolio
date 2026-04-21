@@ -30,13 +30,16 @@ export default function RootLayout({
       lang="es"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-screen bg-[#070707] text-white flex flex-col">
-        <LanguageProvider>
+    <body className="min-h-screen bg-[#070707] text-white overflow-x-hidden">
+      <LanguageProvider>
+        <div className="flex min-h-screen flex-col bg-[#070707]">
           <Navbar />
-          <main className="flex-1 pt-24">{children}</main>
+          <main className="flex-1 pt-36 md:pt-24">
+          {children}</main>
           <Footer />
-        </LanguageProvider>
-      </body>
+        </div>
+      </LanguageProvider>
+    </body>
     </html>
   );
 }

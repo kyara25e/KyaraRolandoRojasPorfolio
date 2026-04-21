@@ -8,10 +8,10 @@ export default function HomeComponents() {
   const { t, lang } = useLanguage();
 
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-hidden  bg-[linear-gradient(to_bottom,#070707,#0b0b0f,#070707)]">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,80,0,0.18),transparent_28%),radial-gradient(circle_at_left,rgba(255,0,90,0.12),transparent_25%),linear-gradient(to_bottom,#070707,#0b0b0f,#070707)]" />
 
-      <div className="relative mx-auto flex min-h-[calc(100vh-96px)] max-w-7xl flex-col items-center justify-center gap-14 px-6 pb-16 md:flex-row md:px-10">
+      <div className="relative mx-auto flex-col justify-start gap-8 px-6 pt-4 pb-16 md:flex-row md:items-center md:justify-center md:gap-14 md:px-10">
         <div className="z-10 max-w-2xl flex-1">
           <p className="mb-4 inline-flex rounded-full border border-white/10 bg-white/5 px-4 py-1 text-sm text-white/80 backdrop-blur-md">
             {t.hero.badge}

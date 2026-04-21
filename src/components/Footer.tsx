@@ -6,7 +6,7 @@ export default function Footer() {
   const { t } = useLanguage();
 
   return (
-    <footer className="border-t border-white/10 bg-black/40 px-6 py-8 text-white/70 backdrop-blur-md">
+    <footer className="border-t border-white/10 bg-black/40 px-6 py-10 backdrop-blur-md text-white/80">
       <div className="mx-auto flex max-w-7xl flex-col gap-6 md:flex-row md:items-center md:justify-between">
         <div>
           <h4 className="text-lg font-bold text-white">Kyara Rojas</h4>

@@ -66,28 +66,28 @@ export default function ProjectDetailClient({ project }: { project: Project }) {
               />
             ) : (
               <div className="flex h-[360px] items-center justify-center rounded-2xl bg-black/30 text-white/40">
-                Todavía no agregaste el video
+                Todavía no hay video
               </div>
             )}
           </div>
         </div>
         <div className="relative z-20 mt-auto flex gap-3 pt-6">
-                  <Link
-                    href={"/proyectos/"}
-                    className="relative z-20 rounded-xl bg-gradient-to-r from-red-600 to-orange-500 px-4 py-2 text-sm font-semibold text-white transition hover:scale-[1.03]"
-                  >
-                    {lang === "es" ? "Ver más proyectos" : "View More Projects"}
-                  </Link>
+            <Link
+            href={"/proyectos/"}
+            className="relative z-20 rounded-xl bg-gradient-to-r from-red-600 to-orange-500 px-4 py-2 text-sm font-semibold text-white transition hover:scale-[1.03]"
+            >
+            {lang === "es" ? "Ver más proyectos" : "View More Projects"}
+            </Link>
 
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="rounded-xl border border-white/15 bg-white/5 px-4 py-2 text-sm font-semibold text-white transition hover:bg-white/10"
-                  >
-                    GitHub
-                  </a>
-                </div>
+            <a
+            href={project.github}
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-xl border border-white/15 bg-white/5 px-4 py-2 text-sm font-semibold text-white transition hover:bg-white/10"
+            >
+            GitHub
+            </a>
+        </div>
       </div>
     </section>
   );

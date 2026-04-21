@@ -15,7 +15,7 @@ export default function Navbar() {
         </Link>
 
         <div className="flex items-center gap-4">
-          <nav className="hidden items-center gap-8 md:flex">
+          <nav className="flex items-center gap-4">
             <Link href="/" className="transition hover:text-orange-300">
               {t.nav.home}
             </Link>
