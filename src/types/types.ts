@@ -2,7 +2,10 @@ export interface Project {
   id: string | number;
   slug: string;
   title: string;
-  description: string;
+  description: {
+    es: string;
+    en: string;
+  };
   tech: string[];
   demo: string;
   github: string;
