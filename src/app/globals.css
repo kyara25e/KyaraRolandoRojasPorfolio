@@ -203,3 +203,37 @@ body {
     opacity: 0;
   }
 }
+
+@media (max-width: 767px) {
+  .fire {
+    filter: blur(55px);
+    opacity: 0.5;
+  }
+
+  .fire-1 {
+    width: 180px;
+    height: 180px;
+    left: 50%;
+    top: 52%;
+  }
+
+  .fire-2 {
+    width: 150px;
+    height: 150px;
+    left: 58%;
+    top: 48%;
+  }
+
+  .fire-3 {
+    width: 160px;
+    height: 160px;
+    left: 42%;
+    top: 58%;
+  }
+
+  .spark {
+    width: 7px;
+    height: 7px;
+    box-shadow: 0 0 8px rgba(255, 120, 0, 0.8);
+  }
+}

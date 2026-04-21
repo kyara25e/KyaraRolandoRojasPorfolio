@@ -61,7 +61,8 @@ export default function HomeComponents() {
         </div>
 
         <div className="relative flex flex-1 items-center justify-center">
-          <div className="relative flex h-[420px] w-full max-w-[620px] items-center justify-center sm:h-[480px]">
+          <div className="relative flex h-[260px] w-full max-w-[320px] items-center justify-center overflow-hidden rounded-full sm:h-[340px] sm:max-w-[420px] md:h-[420px] md:max-w-[620px]">
+            {/* <div className="relative flex h-[420px] w-full max-w-[620px] items-center justify-center sm:h-[480px]"></div> */}
             <FireBackground />
           </div>
         </div>
