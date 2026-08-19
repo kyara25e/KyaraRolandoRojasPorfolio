@@ -16,8 +16,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    "https://kyara-maite-rolando-rojas-porfolio.vercel.app/"
+  ),
   title: "Kyara Rojas Portfolio",
   description: "Portfolio personal de Kyara Rojas",
+  openGraph: {
+    title: "Kyara Rojas | Frontend Developer",
+    description: "Explore my projects, skills and experience in frontend development.",
+    url: "https://kyara-maite-rolando-rojas-porfolio.vercel.app/",
+    siteName: "kyara Rojas  Portfolio",
+    images: [
+      {
+        url: "/KyaraRojasPortfolio.png",
+        width: 1200,
+        height: 630,
+        alt: "Kyara Rojas - Frontend Developer Portfolio",
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
