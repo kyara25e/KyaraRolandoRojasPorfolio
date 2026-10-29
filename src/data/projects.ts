@@ -52,8 +52,8 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    slug: "Noche Argentina",
-    title: "Noche Argentina",
+    slug: "nocheargentina",
+    title: "NocheArgentina",
     description: {
       es: "Plataforma para reservar cena de eventos culturales de Argentina.",
       en: "Platform to book dinner for cultural events in Argentina.",
