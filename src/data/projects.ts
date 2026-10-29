@@ -50,4 +50,20 @@ export const projects: Project[] = [
     image3: "",
     video: "",
   },
+  {
+    id: 4,
+    slug: "Noche Argentina",
+    title: "Noche Argentina",
+    description: {
+      es: "Plataforma para reservar cena de eventos culturales de Argentina.",
+      en: "Platform to book dinner for cultural events in Argentina.",
+    },
+    tech: ["Resend", "Tailwind CSS", "PostgreSQL", "Vercel", "TypeScript", "Next.js"],
+    demo: "#",
+    github: "https://github.com/kyara25e/noche-argentina",
+    image: "https://res.cloudinary.com/dzslmv02r/image/upload/v1793304298/zbwpsnz0cjszzcm0z5tx.png",
+    image2: "https://res.cloudinary.com/dzslmv02r/image/upload/v1793304408/g9gqueekwfjpyfgqccaq.png",
+    image3: "https://res.cloudinary.com/dzslmv02r/image/upload/v1793304551/jqt63jc9yrcw2upne18j.png",
+    video: "https://res.cloudinary.com/dzslmv02r/video/upload/v1793303407/xpxnnft6vrtitplcvmdc.mp4"
+  }
 ];
